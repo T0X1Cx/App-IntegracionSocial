@@ -1,0 +1,43 @@
+<div id="main-content">
+    <ion-header>
+        <ion-toolbar color="celeste">
+            <ion-buttons slot="start" *ngIf="titulo.length != 6">
+                <ion-back-button defaultHref="inicio"></ion-back-button>
+            </ion-buttons>
+            <ion-buttons slot="end">
+                <ion-menu-button></ion-menu-button>
+            </ion-buttons>
+            <ion-title>{{titulo}}</ion-title>
+        </ion-toolbar>
+    </ion-header>
+</div>
+
+<ion-menu side="start" content-id="main-content">
+    <ion-header>
+        <ion-toolbar translucent color="celeste">
+            <ion-title>Menu</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <ion-list>
+            <a href="/login" style="text-decoration:none">
+                <ion-item>
+                    <ion-icon name="log-in-outline" slot="start"></ion-icon>
+                    <ion-label>Iniciar sesión</ion-label>
+                </ion-item>
+            </a>
+            <a href="/acerca-de" style="text-decoration:none">
+                <ion-item>
+                    <ion-icon name="information-circle-outline" slot="start"></ion-icon>
+                    <ion-label>Acerca de</ion-label>
+                </ion-item>
+            </a>
+            <a href="/creditos" style="text-decoration:none">
+                <ion-item>
+                    <ion-icon name="construct-outline" slot="start"></ion-icon>
+                    <ion-label>Créditos</ion-label>
+                </ion-item>
+            </a>
+        </ion-list>
+    </ion-content>
+</ion-menu>
