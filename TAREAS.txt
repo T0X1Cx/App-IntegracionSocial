@@ -1,0 +1,15 @@
+---Julio Ángel---
+
+*Generar páginas, servicios, componentes.
+* Crear JSON y llamada al JSON para las cards.
+*Todo el funcionamiento de las cards
+* Crear contenido de página "Violencia de genero"
+*Creación de side menu
+* Creacion back-button
+
+---Rafael Palos---
+
+
+
+
+---Luis---
