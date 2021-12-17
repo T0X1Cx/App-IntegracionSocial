@@ -30,6 +30,18 @@ const routes: Routes = [
   {
     path: 'login',
     loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'registrar',
+    loadChildren: () => import('./pages/registrar/registrar.module').then( m => m.RegistrarPageModule)
+  },
+  {
+    path: 'olvidar-contrasena',
+    loadChildren: () => import('./pages/olvidar-contrasena/olvidar-contrasena.module').then( m => m.OlvidarContrasenaPageModule)
+  },
+  {
+    path: 'creditos',
+    loadChildren: () => import('./pages/creditos/creditos.module').then( m => m.CreditosPageModule)
   }
 ];
 
