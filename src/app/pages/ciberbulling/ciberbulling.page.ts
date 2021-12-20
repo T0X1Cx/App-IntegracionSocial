@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ToastService } from 'src/app/services/toast.service';
 
 @Component({
   selector: 'app-ciberbulling',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CiberbullingPage implements OnInit {
 
-  constructor() { }
+  constructor(private toastController: ToastService) { }
 
   ngOnInit() {
+  }
+
+  toastDesarrollo(){
+    this.toastController.toastDesarrollo();
   }
 
 }

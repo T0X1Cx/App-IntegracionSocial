@@ -1,7 +1,7 @@
 <div id="main-content">
     <ion-header>
-        <ion-toolbar color="celeste">
-            <ion-buttons slot="start" *ngIf="titulo.length != 6">
+        <ion-toolbar color="soft-red" background-color="#ff3333">
+            <ion-buttons slot="start" *ngIf="titulo != 'Inicio'">
                 <ion-back-button defaultHref="inicio"></ion-back-button>
             </ion-buttons>
             <ion-buttons slot="end">
@@ -14,27 +14,27 @@
 
 <ion-menu side="start" content-id="main-content">
     <ion-header>
-        <ion-toolbar translucent color="celeste">
+        <ion-toolbar class="flag-background">
             <ion-title>Menu</ion-title>
         </ion-toolbar>
     </ion-header>
-    <ion-content>
-        <ion-list>
+    <ion-content class="burger-css">
+        <ion-list style="background-color: soft-red" class="ion-no-padding">
             <a href="/login" style="text-decoration:none">
-                <ion-item>
-                    <ion-icon name="log-in-outline" slot="start"></ion-icon>
+                <ion-item lines="none" style="background-color: #ff8080">
+                    <ion-icon name="log-in-outline" slot="start" color="black"></ion-icon>
                     <ion-label>Iniciar sesión</ion-label>
                 </ion-item>
             </a>
             <a href="/acerca-de" style="text-decoration:none">
-                <ion-item>
-                    <ion-icon name="information-circle-outline" slot="start"></ion-icon>
+                <ion-item lines="none" style="background-color: #ff8080">
+                    <ion-icon name="information-circle-outline" slot="start" color="black"></ion-icon>
                     <ion-label>Acerca de</ion-label>
                 </ion-item>
             </a>
             <a href="/creditos" style="text-decoration:none">
-                <ion-item>
-                    <ion-icon name="construct-outline" slot="start"></ion-icon>
+                <ion-item lines="none" style="background-color: #ff8080">
+                    <ion-icon name="construct-outline" slot="start" color="black"></ion-icon>
                     <ion-label>Créditos</ion-label>
                 </ion-item>
             </a>
