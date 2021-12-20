@@ -15,5 +15,6 @@
 
 ---Luis---
 
-* Añadir css
-* Corrección y revisión de errores
+* Crear contenido de página "Acerca de".
+* Añadir css.
+* Corrección y revisión de errores.

@@ -2,21 +2,21 @@
         "image": "https://i2.wp.com/www.homosensual.com/wp-content/uploads/2019/11/diferencia-orientaci%C3%B3n-sexual-identidad-g%C3%A9nero.jpg?resize=1200%2C720&quality=80&ssl=1",
         "subtitle": "¿Hombre o mujer?",
         "title": "Identidad de género",
-        "content": "Aqui hablaremos sobre la identidad de género, y podrás aclarar todas tus dudas sobre la orientación sexual.",
+        "content": "Aquí hablaremos sobre la identidad de género, y podrás aclarar todas tus dudas sobre la orientación sexual.",
         "route": "/identidad-genero"
     },
     {
         "image": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/igualdad/PublishingImages/Recursos/03112020_Vivas.jpg",
         "subtitle": "Nos queremos vivas",
         "title": "Violencia de género",
-        "content": "Aqui podrás informarte de que es la violencia de género, podrás conocer historias reales de mujeres maltratadas y como ha afectado a sus vidas.",
+        "content": "Aqui podrás informarte de qué es la violencia de género, podrás conocer historias reales de mujeres maltratadas y cómo ha afectado a sus vidas.",
         "route": "/violencia-genero"
     },
     {
         "image": "https://images.squarespace-cdn.com/content/v1/53aadf1de4b0a0a817640cca/1569860831453-JFMBI3FCM50NKEKJD71C/bigstock-Victim-Women-Depressed-Girl-I-260965918.jpg",
-        "subtitle": "Acercate a quien está solo",
+        "subtitle": "Acércate a quien está solo",
         "title": "Bullying",
-        "content": "Informate sobre que es realmente el bullying ",
+        "content": "Infórmate sobre qué es realmente el bullying ",
         "route": "/bulling"
 
     },
@@ -24,7 +24,7 @@
         "image": "https://www.eluniversal.com.mx/sites/default/files/2021/05/13/suspenden-aplicaciones-de-snapchat-tras-muerte-de-un-adolescente.jpg",
         "subtitle": "Borremos la violencia virtual",
         "title": "Ciberbullying",
-        "content": "Informate sobre que es el ciberbullying, como afecta a las personas y a su familia.",
+        "content": "Infórmate sobre qué es el ciberbullying, cómo afecta a las personas y a su familia.",
         "route": "/ciberbulling"
 
     }
