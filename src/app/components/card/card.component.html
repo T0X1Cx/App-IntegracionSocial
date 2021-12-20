@@ -1,13 +1,13 @@
-<ion-card *ngFor="let card of cards | async" class="card" size="12" class="ion-padding">
+<ion-card *ngFor="let card of cards | async" class="card transparent" size="12">
     <img [src]="card.image " />
     <ion-card-header>
-        <ion-card-subtitle>{{card.subtitle}}</ion-card-subtitle>
-        <ion-card-title>{{card.title}}</ion-card-title>
+        <ion-card-subtitle style="color: black">{{card.subtitle}}</ion-card-subtitle>
+        <ion-card-title style="color: black">{{card.title}}</ion-card-title>
     </ion-card-header>
-    <ion-card-content>
+    <ion-card-content style="color: black">
         {{card.content}}
     </ion-card-content>
-    <ion-button expand="block " shape="round " color="celeste" [href]="card.route">
+    <ion-button expand="block " shape="round " color="soft-red" [href]="card.route">
         Infórmate
     </ion-button>
 </ion-card>
