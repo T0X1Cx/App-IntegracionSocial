@@ -1,30 +1,26 @@
 .card-background-page {
     ion-card {
-      position: relative;
-      text-align: center;
+        position: relative;
+        text-align: center;
     }
-  
     .card-title {
-      position: absolute;
-      top: 36%;
-      font-size: 2.0em;
-      width: 100%;
-      font-weight: bold;
-      color: #fff;
+        position: absolute;
+        top: 36%;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #000;
     }
-  
     .card-subtitle {
-      font-size: 1.0em;
-      position: absolute;
-      top: 52%;
-      margin: 5%;
-      width: 90%;
-      color: #fff;
+        font-size: 1.0em;
+        position: absolute;
+        top: 52%;
+        margin: 5%;
+        width: 90%;
+        color: #000;
     }
-  
-  }
+}
 
 ion-content {
     --background: url('../../../assets/images/Background.png') repeat;
 }
-

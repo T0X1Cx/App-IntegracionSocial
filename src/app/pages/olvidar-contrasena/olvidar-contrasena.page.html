@@ -1,21 +1,23 @@
-<app-header titulo="Resetear Contraseña"></app-header>
+<app-header titulo="Reestablecer Contraseña"></app-header>
 
 <ion-content>
-  <form>
-    <ion-item lines="full">
-      <ion-label position="floating"><ion-icon name="file-tray-outline"></ion-icon>Correo electrónico</ion-label>
-      <ion-input type="email" required></ion-input>
-    </ion-item>
+    <form>
+        <ion-item lines="full">
+            <ion-label position="floating">
+                <ion-icon name="file-tray-outline"></ion-icon> Correo electrónico</ion-label>
+            <ion-input type="email" required></ion-input>
+        </ion-item>
 
-    <ion-row>
-      <ion-col>
-        <ion-button type="submit" color="danger" expand="block">Enviar</ion-button>
-      </ion-col>
-    </ion-row>
+        <div class="text-margins">
+            <small>
+            Proporcione el nombre de usuario o la dirección de correo electrónico que utilizó cuando se registró para recuperarla.
+          </small>
+        </div>
 
-    <small>
-      Proporcione el nombre de usuario o la dirección de correo electrónico que utilizó cuando se registró
-      para conseguir recuperarla.
-    </small>
-  </form>
+        <ion-row>
+            <ion-col>
+                <ion-button type="submit" color="light-purple" expand="block">Enviar</ion-button>
+            </ion-col>
+        </ion-row>
+    </form>
 </ion-content>
