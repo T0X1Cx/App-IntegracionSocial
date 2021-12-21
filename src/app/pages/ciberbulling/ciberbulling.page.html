@@ -1,16 +1,40 @@
-<app-header titulo="Ciberbulling"></app-header>
+<app-header titulo="Ciberbullying"></app-header>
 <ion-content>
-    <iframe width="412" height="315" src="https://www.youtube.com/embed/Gfsuj6wlg8Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <ion-button expand="block" shape="round" color="celeste" href="https://www.kuicco.com/blog/5-videos-que-deberias-poner-tus-hijos-o-tus-alumnos/">
-        Más videos en línea
-    </ion-button>
-    <ion-text color="dark">
-        <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </ion-text>
-    <img src="/assets/images/ciberbulling.jpg">
-    <ion-button expand="block" shape="round" color="celeste" (click)="toastDesarrollo()">
-        Realiza un test
-    </ion-button>
+    <iframe class="frame-css" width="90%" height="40%" src="https://www.youtube.com/embed/Gfsuj6wlg8Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <ion-grid>
+        <ion-row>
+            <ion-col size="3"></ion-col>
+            <ion-col size="6">
+                <ion-button expand="block" shape="round" color="soft-red" href="https://www.kuicco.com/blog/5-videos-que-deberias-poner-tus-hijos-o-tus-alumnos/">
+                    Más videos en línea
+                </ion-button>
+            </ion-col>
+            <ion-col size="3"></ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col size="1"></ion-col>
+                <ion-text class="ion-margin">
+                    <p class="text-css">What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </ion-text>
+            <ion-col size="3"></ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col size="1"></ion-col>
+            <ion-col size="10">
+                <img src="/assets/images/ciberbulling.jpg">
+            </ion-col>
+            <ion-col size="1"></ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col size="3"></ion-col>
+            <ion-col size="6">
+                <ion-button expand="block" shape="round" color="soft-red" (click)="toastDesarrollo()">
+                    Realiza un test
+                </ion-button>
+            </ion-col>
+            <ion-col size="3"></ion-col>
+        </ion-row>
+    </ion-grid>
 </ion-content>

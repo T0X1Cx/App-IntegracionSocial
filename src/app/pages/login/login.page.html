@@ -2,21 +2,29 @@
 <ion-content>
     <form>
         <ion-item lines="full">
-          <ion-label position="floating"><ion-icon name="file-tray-outline"></ion-icon>Correo electrónico</ion-label>
-          <ion-input type="text" required></ion-input>
+            <ion-label position="floating">
+                <ion-icon name="file-tray-outline"></ion-icon>Correo electrónico</ion-label>
+            <ion-input type="text" required></ion-input>
         </ion-item>
-    
+
         <ion-item lines="full">
-          <ion-label position="floating"><ion-icon name="key-outline"></ion-icon>Contraseña</ion-label>
-          <ion-input type="password" required></ion-input>
+            <ion-label position="floating">
+                <ion-icon name="key-outline"></ion-icon>Contraseña</ion-label>
+            <ion-input type="password" required></ion-input>
         </ion-item>
-    
-        <ion-row>
-          <ion-col>
-            <ion-button type="submit" color="danger" expand="block" round>Iniciar Sesión</ion-button>
-            <ion-button [routerLink]="['/registrar']" expand="block" color="primary" round>Registrarse</ion-button>
-            <a [routerLink]="['/olvidar-contrasena']" class="small-text">¿Olvidaste la contraseña?</a>
-          </ion-col>
-        </ion-row>
-      </form>
+        <br>
+        <a style="margin-left: 3%;" [routerLink]="['/olvidar-contrasena']" class="small-text">¿Olvidaste la contraseña?</a>
+
+        <br><br>
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <ion-button type="submit" color="celeste" expand="block" round>Iniciar Sesión</ion-button>
+                </ion-col>
+                <ion-col>
+                    <ion-button [routerLink]="['/registrar']" expand="block" color="light-purple" round>Registrarse</ion-button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </form>
 </ion-content>
